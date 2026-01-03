@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPTRA</title>
+    <!-- GOOGLE FONTS CDN -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Aclonica&family=Amarna:ital,wght@0,100..700;1,100..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FAVICON FILE LINK -->
+     <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+    <!-- CSS FILE LINK -->
+     <link rel="stylesheet" href="./css/style.css">
+    <!-- MEDIA QUERY FILE LINK -->
+     <link rel="stylesheet" href="./css/media.css">
+    <!-- JS FILE LINK -->
+     <script src="./js/script.js" defer></script>
+    <!-- SWIPER CSS CDN -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- HEADER SECTION -->
+     <header class="header-sec">
+        <div class="container">
+            <nav class="navbar">
+                <a href="./index.html" class="nav-logo">
+                    <img src="./images/nav-logo.png" alt="nav-logo" loading="lazy">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">freelancers</a></li>
+                    <li><a href="#">post a job</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+                <div class="nav-btn">
+                    <a href="#" class="cmn-btn">Subscribe as Freelancer <i class="fa fa-arrow-right-long"></i></a>
+                    <a href="#" class="cmn-btn login-btn"><i class="fa-regular fa-user user"></i> log in <i class="fa fa-chevron-down"></i></a>
+                </div>
+                <i class="fa fa-bars menu-btn"></i>
+            </nav>
+        </div>
+     </header>
+     <main>
+        <!-- BANNER SECTION -->
+         <section class="banner-sec">
+            <div class="container">
+                <div class="banner-child">
+                    <span>the best way to showcase your products <i class="fa fa-arrow-right-long"></i></span>
+                    <h1>forging the future</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <a href="#" class="cmn-btn">post your job now <i class="fa fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+         </section>
+         <!-- ABOUT SECTION -->
+          <section class="about-sec">
+            <div class="container">
+                <div class="about-child">
+                    <div class="about-left">
+                        <figure>
+                            <img src="./images/about-1.png" alt="about-1" loading="lazy">
+                        </figure>
+                        <figure>
+                            <img src="./images/about-2.png" alt="about-2" loading="lazy">
+                        </figure>
+                    </div>
+                    <div class="about-right">
+                        <div class="about-text">
+                            <span>welcome to <i class="fa fa-arrow-right-long"></i></span>
+                            <h2>about uptra</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                            <a href="#" class="cmn-btn">about us <i class="fa fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- SERVICE SECTION -->
+           <section class="serv-sec">
+            <div class="container">
+                <div class="serv-head">
+                    <div class="serv-left">
+                        <span>our services <i class="fa fa-arrow-right-long"></i></span>
+                        <h2>why join us</h2>
+                    </div>
+                    <div class="serv-right">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                    </div>
+                </div>
+                <div class="serv-child">
+                    <div #swiperRef="" class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="serv-image">
+                                    <figure>
+                                        <img src="./images/card-1.png" alt="card-1" loading="lazy">
+                                    </figure>
+                                </div>
+                                <div class="serv-text">
+                                    <div class="serv-icon">
+                                        <img src="./images/icon-1.png" alt="icon-1" loading="lazy">
+                                    </div>
+                                    <h3 class="heading-6">architectural</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide active">
+                                <div class="serv-image">
+                                    <figure>
+                                        <img src="./images/card-2.png" alt="card-2" loading="lazy">
+                                    </figure>
+                                </div>
+                                <div class="serv-text">
+                                    <div class="serv-icon">
+                                        <img src="./images/icon-2.png" alt="icon-2" loading="lazy">
+                                    </div>
+                                    <h3 class="heading-6">interior design</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="serv-image">
+                                    <figure>
+                                        <img src="./images/card-3.png" alt="card-3" loading="lazy">
+                                    </figure>
+                                </div>
+                                <div class="serv-text">
+                                    <div class="serv-icon">
+                                        <img src="./images/icon-3.png" alt="icon-3" loading="lazy">
+                                    </div>
+                                    <h3 class="heading-6">graphic design</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="serv-image">
+                                    <figure>
+                                        <img src="./images/card-1.png" alt="card-1" loading="lazy">
+                                    </figure>
+                                </div>
+                                <div class="serv-text">
+                                    <div class="serv-icon">
+                                        <img src="./images/icon-1.png" alt="icon-1" loading="lazy">
+                                    </div>
+                                    <h3 class="heading-6">architectural</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="serv-btn">
+                    <a href="#" class="cmn-btn">get started <i class="fa fa-arrow-right-long"></i></a>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+           </section>
+           <!-- SOLUTION SECTION -->
+            <section class="sol-sec">
+                <div class="container">
+                    <div class="sol-child">
+                        <div class="sol-left">
+                            <span>solutions <i class="fa fa-arrow-right-long"></i></span>
+                            <h2>streamline communications</h2>
+                        </div>
+                        <div class="sol-right">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an.</p>
+                            <a href="#" class="cmn-btn">post your job now <i class="fa fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+     </main>
+     <!-- FOOTER SECTION -->
+      <footer class="footer-sec">
+        <div class="container">
+            <div class="footer-child">
+                <div class="cmn-footer footer-1">
+                    <a href="./index.html" class="footer-logo">
+                        <img src="./images/footer-logo.png" alt="footer-logo" loading="lazy">
+                    </a>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </p>
+                </div>
+                <div class="cmn-footer footer-2">
+                    <div class="footer-head">quick links</div>
+                    <ul class="footer-links">
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">freelancers</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">post a job</a></li>
+                    </ul>
+                </div>
+                <div class="cmn-footer footer-3">
+                    <div class="footer-head">additional links</div>
+                    <ul class="footer-links">
+                        <li><a href="#">terms & conditions</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="cmn-footer footer-4">
+                    <div class="footer-head">follow us</div>
+                    <ul class="footer-medias">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-title">
+            <p>© 2025 <a href="#">Uptra</a>. All Rights Reserved</p>
+        </div>
+      </footer>
+
+
+     <!-- JQUERY CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: Infinity,
+      autoplay: {
+        delay: 2500,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        768: {
+            slidesPerView: 2,
+        },
+        1200: {
+            slidesPerView: 3,
+        },
+      },
+    });
+</script>
+</body>
+</html>

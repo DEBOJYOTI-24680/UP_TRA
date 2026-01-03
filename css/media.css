@@ -1,0 +1,809 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .nav-btn{
+        display: none;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 90px;
+        background-color: var(--third-color);
+        padding: 20px 0;
+        display: none;
+        z-index: 99;
+    }
+    .nav-links li{
+        margin: 30px 0;
+        font-size: 20px;
+    }
+    .nav-links li a{
+        color: var(--first-color);
+    }
+    .nav-links li a:hover::after{
+        width: 100%;
+        background-color: var(--first-color);
+    }
+    .nav-logo{
+        width: 54px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 22px;
+    }
+    .banner-child{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .banner-child span{
+        font-size: 13px;
+    }
+    .banner-child h1{
+        font-size: 40px;
+    }
+    .banner-child p{
+        font-size: 13px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 13px;
+        padding: 16px 30px;
+    }
+    .about-sec{
+        padding: 60px 0 59px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-left{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-left{
+        margin-bottom: 40px;
+    }
+    .about-text span{
+        font-size: 13px;
+    }
+    .about-text h2{
+        font-size: 35px;
+    }
+    .about-text p{
+        font-size: 13px;
+    }
+    .about-text .cmn-btn{
+        font-size: 13px;
+        padding: 16px 26px;
+    }
+    .serv-sec{
+        padding: 65px 0 70px;
+    }
+    .serv-head{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .serv-right{
+        width: 100%;
+    }
+    .serv-left span{
+        font-size: 13px;
+    }
+    .serv-left h2{
+        font-size: 35px;
+    }
+    .serv-right p{
+        font-size: 13px;
+    }
+    .serv-text h3{
+        font-size: 17px;
+    }
+    .serv-text p{
+        font-size: 13px;
+    }
+    .swiper{
+        height: 406px;
+    }
+    .serv-icon{
+        width: 30px;
+    }
+    .serv-btn .cmn-btn{
+        font-size: 13px;
+        padding: 16px 25px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        padding: 25px;
+    }
+    .sol-sec{
+        height: auto;
+    }
+    .sol-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+        padding: 40px 0;
+    }
+    .sol-left, .sol-right{
+        width: 100%;
+    }
+    .sol-left span{
+        font-size: 13px;
+    }
+    .sol-left h2{
+        font-size: 35px;
+    }
+    .sol-right p{
+        font-size: 13px;
+    }
+    .sol-right .cmn-btn{
+        font-size: 13px;
+        padding: 15px 30px;
+    }
+    .footer-sec{
+        padding-top: 55px;
+    }
+    .footer-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .cmn-footer{
+        width: 100%;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 62px;
+    }
+    .footer-1 p{
+        font-size: 13px;
+    }
+    .footer-head{
+        font-size: 17px;
+        text-align: center;
+    }
+    .footer-head::after{
+        height: 1px;
+        width: 42px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer-links li{
+        font-size: 13px;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-medias li{
+        padding: 12px;
+    }
+    .footer-title p{
+        font-size: 13px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-btn{
+        position: fixed;
+        bottom: 15px;
+        width: 100%;
+        text-align: center;
+        z-index: 89;
+    }
+    .nav-btn .cmn-btn{
+        font-size: 14px;
+        padding: 17px 35px;
+        transition: transform 0.4s ease-in-out;
+    }
+    .nav-btn .cmn-btn:hover{
+        transform: scale(1.04);
+    }
+    .nav-btn .login-btn{
+        font-size: 14px;
+        padding: 16px 24px 14px;
+        transition: transform 0.4s ease-in-out;
+        background-color: var(--second-color);
+        color: var(--first-color);
+    }
+    .nav-btn .login-btn:hover{
+        background-color: var(--third-color);
+        transform: scale(1.04);
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 90px;
+        background-color: var(--third-color);
+        padding: 20px 0;
+        display: none;
+        z-index: 99;
+    }
+    .nav-links li{
+        margin: 30px 0;
+        font-size: 20px;
+    }
+    .nav-links li a{
+        color: var(--first-color);
+    }
+    .nav-links li a:hover::after{
+        width: 100%;
+        background-color: var(--first-color);
+    }
+    .nav-logo{
+        width: 54px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 24px;
+    }
+    .banner-child{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .banner-child span{
+        font-size: 14px;
+    }
+    .banner-child h1{
+        font-size: 40px;
+    }
+    .banner-child p{
+        font-size: 14px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 14px;
+        padding: 17px 35px;
+    }
+    .about-sec{
+        padding: 70px 0 69px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-left{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-left{
+        margin-bottom: 40px;
+    }
+    .about-text span{
+        font-size: 14px;
+    }
+    .about-text h2{
+        font-size: 40px;
+    }
+    .about-text p{
+        font-size: 14px;
+    }
+    .about-text .cmn-btn{
+        font-size: 14px;
+        padding: 17px 28px;
+    }
+    .serv-sec{
+        padding: 75px 0 80px;
+    }
+    .serv-head{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .serv-right{
+        width: 100%;
+    }
+    .serv-left span{
+        font-size: 14px;
+    }
+    .serv-left h2{
+        font-size: 40px;
+    }
+    .serv-right p{
+        font-size: 14px;
+    }
+    .serv-text h3{
+        font-size: 18px;
+    }
+    .serv-text p{
+        font-size: 14px;
+    }
+    .swiper{
+        height: auto;
+    }
+    .serv-icon{
+        width: 35px;
+    }
+    .serv-btn .cmn-btn{
+        font-size: 13px;
+        padding: 17px 28px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        padding: 27px;
+    }
+    .sol-sec{
+        height: auto;
+    }
+    .sol-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+        padding: 40px 0;
+    }
+    .sol-left, .sol-right{
+        width: 100%;
+    }
+    .sol-left span{
+        font-size: 14px;
+    }
+    .sol-left h2{
+        font-size: 40px;
+    }
+    .sol-right p{
+        font-size: 14px;
+    }
+    .sol-right .cmn-btn{
+        font-size: 14px;
+        padding: 16px 35px;
+    }
+    .footer-sec{
+        padding-top: 65px;
+    }
+    .footer-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .cmn-footer{
+        width: 100%;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 72px;
+    }
+    .footer-1{
+        width: 80%;
+    }
+    .footer-1 p{
+        font-size: 14px;
+    }
+    .footer-head{
+        font-size: 18px;
+        text-align: center;
+    }
+    .footer-head::after{
+        height: 2px;
+        width: 42px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer-links li{
+        font-size: 14px;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-medias li{
+        padding: 14px;
+    }
+    .footer-title p{
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav-btn{
+        position: fixed;
+        bottom: 15px;
+        width: 100%;
+        text-align: center;
+        z-index: 89;
+    }
+    .nav-btn .cmn-btn{
+        font-size: 15px;
+        padding: 18px 38px;
+        transition: transform 0.4s ease-in-out;
+    }
+    .nav-btn .cmn-btn:hover{
+        transform: scale(1.04);
+    }
+    .nav-btn .login-btn{
+        font-size: 15px;
+        padding: 18px 28px 16px;
+        transition: transform 0.4s ease-in-out;
+        background-color: var(--second-color);
+        color: var(--first-color);
+    }
+    .nav-btn .login-btn:hover{
+        background-color: var(--third-color);
+        transform: scale(1.04);
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 95px;
+        background-color: var(--third-color);
+        padding: 20px 0;
+        display: none;
+        z-index: 99;
+    }
+    .nav-links li{
+        margin: 30px 0;
+        font-size: 20px;
+    }
+    .nav-links li a{
+        color: var(--first-color);
+    }
+    .nav-links li a:hover::after{
+        width: 100%;
+        background-color: var(--first-color);
+    }
+    .nav-logo{
+        width: 64px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 26px;
+    }
+    .banner-child{
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .banner-child span{
+        font-size: 15px;
+    }
+    .banner-child h1{
+        font-size: 50px;
+    }
+    .banner-child p{
+        font-size: 15px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 15px;
+        padding: 18px 38px;
+    }
+    .about-sec{
+        padding: 80px 0 79px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-text{
+        width: 85%;
+        margin: auto;
+    }
+    .about-left{
+        margin-bottom: 40px;
+    }
+    .about-text span{
+        font-size: 15px;
+    }
+    .about-text h2{
+        font-size: 48px;
+    }
+    .about-text p{
+        font-size: 15px;
+    }
+    .about-text .cmn-btn{
+        font-size: 15px;
+        padding: 18px 32px;
+    }
+    .serv-sec{
+        padding: 80px 0 85px;
+    }
+    .serv-head{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .serv-right{
+        width: 100%;
+    }
+    .serv-left span{
+        font-size: 15px;
+    }
+    .serv-left h2{
+        font-size: 45px;
+    }
+    .serv-right p{
+        font-size: 15px;
+    }
+    .serv-text h3{
+        font-size: 19px;
+    }
+    .serv-text p{
+        font-size: 15px;
+    }
+    .swiper{
+        height: auto;
+    }
+    .serv-icon{
+        width: 45px;
+    }
+    .serv-btn .cmn-btn{
+        font-size: 15px;
+        padding: 19px 32px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        padding: 28px;
+    }
+    .sol-sec{
+        height: auto;
+    }
+    .sol-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+        padding: 40px 0;
+    }
+    .sol-left, .sol-right{
+        width: 100%;
+    }
+    .sol-left span{
+        font-size: 15px;
+    }
+    .sol-left h2{
+        font-size: 45px;
+    }
+    .sol-right p{
+        font-size: 15px;
+    }
+    .sol-right .cmn-btn{
+        font-size: 15px;
+        padding: 18px 38px;
+    }
+    .footer-sec{
+        padding-top: 75px;
+    }
+    .cmn-footer{
+        width: 50%;
+        text-align: center;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 72px;
+    }
+    .footer-1 p{
+        font-size: 15px;
+    }
+    .footer-head{
+        font-size: 19px;
+    }
+    .footer-head::after{
+        height: 2px;
+        width: 52px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer-links li{
+        font-size: 15px;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-medias li{
+        padding: 15px;
+    }
+    .footer-title p{
+        font-size: 15px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .nav-btn{
+        margin: 0 20px 0 auto;
+    }
+    .nav-btn .cmn-btn{
+        font-size: 16px;
+        padding: 20px 40px;
+        transition: transform 0.4s ease-in-out;
+    }
+    .nav-btn .cmn-btn:hover{
+        transform: scale(1.04);
+    }
+    .nav-btn .login-btn{
+        font-size: 16px;
+        padding: 20px 32px 18px;
+        transition: transform 0.4s ease-in-out;
+    }
+    .nav-btn .login-btn:hover{
+        transform: scale(1.04);
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 105px;
+        background-color: var(--third-color);
+        padding: 20px 0;
+        display: none;
+        z-index: 99;
+    }
+    .nav-links li{
+        margin: 30px 0;
+        font-size: 20px;
+    }
+    .nav-links li a{
+        color: var(--first-color);
+    }
+    .nav-links li a:hover::after{
+        width: 100%;
+        background-color: var(--first-color);
+    }
+    .nav-logo{
+        width: 74px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 28px;
+    }
+    .banner-child{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .banner-child span{
+        font-size: 16px;
+    }
+    .banner-child h1{
+        font-size: 60px;
+    }
+    .banner-child p{
+        font-size: 16px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 16px;
+        padding: 20px 40px;
+    }
+    .about-sec{
+        padding: 90px 0 89px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-text{
+        width: 85%;
+        margin: auto;
+    }
+    .about-left{
+        margin-bottom: 50px;
+    }
+    .about-text span{
+        font-size: 16px;
+    }
+    .about-text h2{
+        font-size: 55px;
+    }
+    .about-text p{
+        font-size: 16px;
+    }
+    .about-text .cmn-btn{
+        font-size: 16px;
+        padding: 20px 36px;
+    }
+    .serv-sec{
+        padding: 95px 0 100px;
+    }
+    .serv-head{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .serv-right{
+        width: 100%;
+    }
+    .serv-left span{
+        font-size: 16px;
+    }
+    .serv-left h2{
+        font-size: 55px;
+    }
+    .serv-right p{
+        font-size: 16px;
+    }
+    .serv-text h3{
+        font-size: 20px;
+    }
+    .serv-text p{
+        font-size: 26px;
+    }
+    .swiper{
+        height: auto;
+    }
+    .serv-icon{
+        width: 50px;
+    }
+    .serv-btn .cmn-btn{
+        font-size: 16px;
+        padding: 20px 35px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        padding: 30px;
+    }
+    .sol-sec{
+        height: auto;
+    }
+    .sol-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+        padding: 40px 0;
+        width: 80%;
+        margin: auto;
+    }
+    .sol-left, .sol-right{
+        width: 100%;
+    }
+    .sol-left span{
+        font-size: 16px;
+    }
+    .sol-left h2{
+        font-size: 55px;
+    }
+    .sol-right p{
+        font-size: 16px;
+    }
+    .sol-right .cmn-btn{
+        font-size: 16px;
+        padding: 20px 40px;
+    }
+    .footer-sec{
+        padding-top: 85px;
+    }
+    .cmn-footer{
+        width: 50%;
+        text-align: center;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 82px;
+    }
+    .footer-1 p{
+        font-size: 16px;
+    }
+    .footer-head{
+        font-size: 20px;
+    }
+    .footer-head::after{
+        height: 2px;
+        width: 52px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer-links li{
+        font-size: 16px;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-medias li{
+        padding: 16px;
+    }
+    .footer-title p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
